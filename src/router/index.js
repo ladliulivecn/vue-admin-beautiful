@@ -105,12 +105,6 @@ export const asyncRoutes = [
             meta: { title: '常规图标' },
           },
           {
-            path: 'remixIcon',
-            name: 'RemixIcon',
-            component: () => import('@/views/vab/icon/remixIcon'),
-            meta: { title: '小清新图标' },
-          },
-          {
             path: 'colorfulIcon',
             name: 'ColorfulIcon',
             component: () => import('@/views/vab/icon/colorfulIcon'),
@@ -160,12 +154,6 @@ export const asyncRoutes = [
         name: 'Tree',
         component: () => import('@/views/vab/tree/index'),
         meta: { title: '树', permissions: ['admin'] },
-      },
-      {
-        path: 'card',
-        name: 'Card',
-        component: () => import('@/views/vab/card/index'),
-        meta: { title: '卡片', permissions: ['admin'] },
       },
       {
         path: 'verify',
@@ -247,12 +235,6 @@ export const asyncRoutes = [
         name: 'Lodash',
         component: () => import('@/views/vab/lodash/index'),
         meta: { title: 'lodash', permissions: ['admin'] },
-      },
-      {
-        path: 'imgComparison',
-        name: 'ImgComparison',
-        component: () => import('@/views/vab/imgComparison/index'),
-        meta: { title: '图像拖拽比对', permissions: ['admin'] },
       },
       {
         path: 'smallComponents',
